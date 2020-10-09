@@ -1,0 +1,112 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+.mainBackgroundImage, .mainCardBackgroundImage {
+    background-image: url(./images/main.jpg);
+    background-color: gray;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.mainCardBackgroundImage {
+    background-image: url(./images/team.jpg);
+    background-position: center;
+}
+
+.backgroundBlack, .cardBackgroundBlack {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+}
+
+.mainEnter {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainH1, .cardH1 {
+    font-size: 5em;
+    text-shadow: 2px 1px red;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.cardH1 {
+    margin-top: 0;
+    text-shadow: none;
+}
+
+.mainForm {
+    margin-top: 3em;
+}
+
+.mainForm label {
+    font-size: 1.25em;
+}
+
+.mainForm .nameInput, .mainEnter .cardInput {
+    display: block;
+    padding: 0.2em 1em;
+    margin: 0.35em auto 0;
+    font-size: 1.15em;
+}
+
+.mainEnter .cardInput {
+    display: inline;
+    font-size: 1em;
+
+}
+
+.mainEnter .fa-search {
+font-size: 1.5em;
+}
+
+.mainBtn {
+     margin-top: 2em;
+     padding: 0.75em 2.5em; 
+    background-color: red;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+} 
+
+.mainBtn:hover {
+ cursor: pointer;
+ transition: 0.2s ease;
+ background-color: rgb(253, 39, 39);
+} 
+
+
+@media only screen and (max-width: 767px) {
+
+    .mainEnter h1 {
+        font-size: 4em;
+        text-shadow: 2px 1px red;
+        text-align: center;
+    }
+
+    .mainForm .nameInput {
+        display: block;
+        padding: 0.15em 0.5em;
+        margin: 0.35em auto 0;
+        font-size: 1.1em;
+    }
+    
+    .mainBtn {
+        padding: 0.75em 2em; 
+        font-size: 1.25em;
+    } 
+
+ 
+}
+
