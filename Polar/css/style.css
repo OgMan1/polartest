@@ -40,7 +40,7 @@ html {
 }
 
 .cardH1 {
-    margin-top: 0;
+    /* margin-top: 0; */
     text-shadow: none;
 }
 
@@ -101,12 +101,50 @@ font-size: 1.5em;
         margin: 0.35em auto 0;
         font-size: 1.1em;
     }
+
+    .mainEnter .cardInput {
+        padding: 0.25em;
+    }
     
     .mainBtn {
         padding: 0.75em 2em; 
         font-size: 1.25em;
     } 
 
+    .mainEnter .fa-search {
+        font-size: 1.2em;
+    }
+
+ 
+}
+
+@media only screen and (max-width: 321px) {
+
+    .mainEnter h1 {
+        font-size: 3em;
+        text-shadow: 2px 1px red;
+        text-align: center;
+    }
+
+    .mainForm .nameInput {
+        display: block;
+        padding: 0.15em;
+        margin: 0.35em auto 0;
+        font-size: 1em;
+    }
+
+    .mainEnter .cardInput {
+        padding: 0.25em;
+    }
+    
+    .mainBtn {
+        padding: 0.75em; 
+        font-size: 1.05em;
+    } 
+
+    .mainEnter .fa-search {
+        font-size: 1em;
+    }
  
 }
 
